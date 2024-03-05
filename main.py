@@ -62,7 +62,7 @@ def Test():
   assert calculator.Calculate('30,50,10000') == 80
 
   assert calculator.Calculate('//[#]30,50#10XD10//[XD]') == 100
-Test()
+
 
      
 
@@ -76,4 +76,6 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue('This is broken' in context.exception)
 
 if __name__ == '__main__':
+    print("Witamy ciebie użytkowniku!")
+    Test()
     unittest.main()
