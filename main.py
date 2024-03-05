@@ -12,11 +12,8 @@ class StringCalculator:
 
       delimiters = [',', '\n']
 
-      #if(string.startswith('//')):
 
-
-      output = re.findall("//
-",string)
+      output = re.findall("//",string)
       for o in output:
         o.replace('/','')
         o.replace('[','')
